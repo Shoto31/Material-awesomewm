@@ -12,7 +12,7 @@ An almost desktop environment made with [AwesomeWM](https://awesomewm.org/) foll
 
 | Tiled         | Panel         | Exit screen   |
 |:-------------:|:-------------:|:-------------:|
-|![](https://imgur.com/a/L4lOj3Q)|![](https://i.imgur.com/7IthpQS.png)|![](https://i.imgur.com/rcKOLYQ.png)|
+|![](https://i.imgur.com/mW4ApHZ.png)|![](https://i.imgur.com/7IthpQS.png)|![](https://i.imgur.com/rcKOLYQ.png)|
 
 ## Installation
 
