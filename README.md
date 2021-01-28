@@ -8,10 +8,6 @@ Note: My fork focuses on adding a few keyboard shortcuts and some visual improve
 An almost desktop environment made with [AwesomeWM](https://awesomewm.org/) following the [Material Design guidelines](https://material.io) with a performant opiniated mouse/keyboard workflow to increase daily productivity and comfort.
 
 
-| Tiled         | Panel         | Exit screen   |
-|:-------------:|:-------------:|:-------------:|
-|![](https://i.imgur.com/mW4ApHZ.png)|![]()|![](https://i.imgur.com/rcKOLYQ.png)|
-
 
 | Tiled         | 
 |:-------------:|
