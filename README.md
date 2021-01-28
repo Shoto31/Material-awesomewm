@@ -1,3 +1,5 @@
+#This is a fork of the repositor from [Chris Titus Tech](https://github.com/ChrisTitusTech/material-awesome)
+
 ## Material and Mouse driven theme for [AwesomeWM 4.3](https://awesomewm.org/)
 ### Original work by PapyElGringo, official development seem to have moved to [material-shell](https://github.com/PapyElGringo/material-shell)
 
