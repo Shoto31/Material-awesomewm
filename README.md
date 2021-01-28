@@ -15,7 +15,7 @@ An almost desktop environment made with [AwesomeWM](https://awesomewm.org/) foll
 
 | Panel         | 
 |:-------------:|
-|![](https://i.imgur.com/7IthpQS.png)|
+|![](https://i.imgur.com/b6CTlZu.png)|
 
 | Exit Screen   | 
 |:-------------:|
