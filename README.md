@@ -1,7 +1,7 @@
 ## Material and Mouse driven theme for [AwesomeWM 4.3](https://awesomewm.org/)
 ### Original work by PapyElGringo, official development seem to have moved to [material-shell](https://github.com/PapyElGringo/material-shell)
 
-Note: This fork focuses on streamlining the config and adding some Quality of Life touches to the theme.
+Note: My fork focuses on adding a few keyboard shortcuts and some visual improvements.
 
 An almost desktop environment made with [AwesomeWM](https://awesomewm.org/) following the [Material Design guidelines](https://material.io) with a performant opiniated mouse/keyboard workflow to increase daily productivity and comfort.
 
@@ -16,17 +16,7 @@ An almost desktop environment made with [AwesomeWM](https://awesomewm.org/) foll
 
 ### 1) Get all the dependencies
 
-#### Debian-Based
-
-```
-sudo add-apt-repository ppa:regolith-linux/unstable -y
-sudo apt install awesome fonts-roboto rofi picom i3lock xclip qt5-style-plugins materia-gtk-theme lxappearance xbacklight kde-spectacle nautilus xfce4-power-manager pnmixer network-manager-applet gnome-polkit -y
-wget -qO- https://git.io/papirus-icon-theme-install | sh
-```
-
-*Note: PPA is for picom since compton is old and hasn't been updated*
-
-#### Arch-Based
+#### Arch
 
 ```
 yay -S awesome rofi picom i3lock-fancy xclip ttf-roboto gnome-polkit materia-gtk-theme lxappearance flameshot pnmixer network-manager-applet xfce4-power-manager -y
@@ -36,9 +26,9 @@ wget -qO- https://git.io/papirus-icon-theme-install | sh
 #### Program list
 
 - [AwesomeWM](https://awesomewm.org/) as the window manager - universal package install: awesome
-- [Roboto](https://fonts.google.com/specimen/Roboto) as the **font** - Debian: fonts-roboto Arch: ttf-roboto
+- [Hack](https://sourcefoundry.org/hack/) as the **font** - Arch: nerd-fonts-hack
 - [Rofi](https://github.com/DaveDavenport/rofi) for the app launcher - universal install: rofi
-- [picom](https://github.com/yshui/picom) for the compositor (blur and animations) universal install: picom - Debian users need PPA (`sudo add-apt-repository ppa:regolith-linux/unstable`)
+- [Jonabur's fork of picom](https://github.com/jonaburg/picom) for the compositor (blur and animations)  install AUR: (`yay -S picom-jonaburg-git `)
 - [i3lock](https://github.com/meskarune/i3lock-fancy) the lockscreen application universal install: i3lock-fancy
 - [xclip](https://github.com/astrand/xclip) for copying screenshots to clipboard package: xclip
 - [gnome-polkit] recommend using the gnome-polkit as it integrates nicely for elevating programs that need root access
