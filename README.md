@@ -44,7 +44,7 @@ wget -qO- https://git.io/papirus-icon-theme-install | sh
 ### 2) Clone the configuration
 
 ```
-git clone https://github.com/ChrisTitusTech/material-awesome.git ~/.config/awesome
+git clone https://github.com/Shoto31/Material-awesomemw.git ~/.config/awesome
 ```
 
 ### 3) Set the themes
@@ -54,9 +54,9 @@ Note: for cursor theme, edit `~/.icons/default/index.theme` and `~/.config/gtk3-
 
 ### 4) Same theme for Qt/KDE applications and GTK applications, and fix missing indicators
 
-First install `qt5-style-plugins` (debian) | `qt5-styleplugins` (arch) and add this to the bottom of your `/etc/environment`
+First install `qt5-styleplugins` (arch) and add this to the bottom of your `/etc/environment`
 
-```bash
+```zsh
 XDG_CURRENT_DESKTOP=Unity
 QT_QPA_PLATFORMTHEME=gtk2
 ```
